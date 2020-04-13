@@ -18,25 +18,8 @@
     include "include/sidebar.php" ?>
 
     <main class="content">
-      <div class="nav-container">
-        <div id="open">
-          <div class="res-sidenav sidebar-toggle">
-            <img src="img/icons/ic_nav.svg" alt="">
-          </div>
-        </div>
-
-        <a href="">
-          <div class="res-logo">
-            <img src="img/icons/logo.svg" alt="">
-          </div>
-        </a>
-
-        <a href="">
-          <div class="notification-bar">
-            <img src="img/icons/ic_notification.svg" alt="">
-          </div>
-        </a>
-      </div>
+    <?php include "include/res-nav.php" ?>
+    
       <div class="body-main">
         <div class="row">
           <div class="col-md-9">
@@ -62,7 +45,7 @@
 
 
         <div class="col-md-6 pl-0">
-          <img src="img/bg-about.jpg" class="img-fluid h-100 img-abt">
+          <img src="img/bg-about.jpg" class="img-fluid img-abt">
         </div>
       </div>
 

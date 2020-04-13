@@ -17,25 +17,7 @@
     $community = 'active';    
     include "include/sidebar.php" ?>
     <main class="content">
-      <div class="nav-container">
-        <div id="open">
-          <div class="res-sidenav sidebar-toggle">
-            <img src="img/icons/ic_nav.svg" alt="">
-          </div>
-        </div>
-
-        <a href="">
-          <div class="res-logo">
-            <img src="img/icons/logo.svg" alt="">
-          </div>
-        </a>
-
-        <a href="">
-          <div class="notification-bar">
-            <img src="img/icons/ic_notification.svg" alt="">
-          </div>
-        </a>
-      </div>
+    <?php include "include/res-nav.php" ?>
 
       <div class="body-main">
         <div class="row">
@@ -73,149 +55,184 @@
               <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="communities" role="tabpanel" aria-labelledby="communities-tab">
                   <div class="row">
-                    <div class="col-md-3 pl-0 pr-0 features-m-view">
-                      <div class="com-box bg-white">
-                        <div class="com-img">
-                          <img src="img/co_gdg.png" class="card-img-top gdg-img">
-                          <div class="com-cont bg-orange-transparent">
-                            <p class="big clr-white">
-                              <span class="clr-white com-hover"><img src="img/co_gdg.png" alt="" class=""></span><br><br>
-                              Google Developer Group, Port Harcourt.<br>
-                              <p class="mt-4 ml-4">
-                                <a href="#" class="clr-white">Learn more »»</a>
-                              </p>
-                            </p>
+                    <div class="col-md-6">
+                      <div class="row">
+                        <div class="col-6 pl-0 pr-0 features-m-view">
+                          <div class="com-box bg-lt-blue-two">
+                            <div class="com-img">
+                              <div class="gdg-img">
+                                <img src="img/co_gdg.png" class="card-img-top">
+                              </div>
+                              <div class="com-cont bg-orange-transparent">
+                                <div class="big">
+                                  <span class="com-hover mt-3"><img src="img/co_gdg.png" alt="" class=""></span><br>
+                                  Google Developer Group, Port Harcourt.<br>
+                                  <p class="span-link">
+                                    <a href="#" class="clr-white">Learn more »»</a>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>  
                           </div>
-                        </div>  
-                      </div>
-                    </div>
-
-                    <div class="col-md-3 pl-0 pr-0 features-m-view">
-                      <div class="com-box bg-white">
-                        <div class="com-img">
-                          <img src="img/co_gdg.png" class="card-img-top gdg-img">
-                          <div class="com-cont bg-orange-transparent">
-                            <p class="big clr-white">
-                              <span class="clr-white com-hover"><img src="img/co_gdg.png" alt="" class=""></span><br><br>
-                              Google Developer Group, Port Harcourt.<br>
-                              <p class="mt-4 ml-4">
-                                <a href="#" class="clr-white">Learn more »»</a>
-                              </p>
-                            </p>
-                          </div>
-                        </div>  
-                      </div>
-                    </div>
-
-                    <div class="col-md-3 pl-0 pr-0 features-m-view">
-                      <div class="com-box bg-white">
-                        <div class="com-img">
-                          <img src="img/co_gdg.png" class="card-img-top gdg-img">
-                          <div class="com-cont bg-orange-transparent">
-                            <p class="big clr-white">
-                              <span class="clr-white com-hover"><img src="img/co_gdg.png" alt="" class=""></span><br><br>
-                              Google Developer Group, Port Harcourt.<br>
-                              <p class="mt-4 ml-4">
-                                <a href="#" class="clr-white">Learn more »»</a>
-                              </p>
-                            </p>
-                          </div>
-                        </div>  
-                      </div>
-                    </div>
-
-
-                    <div class="col-md-3 pl-0 pr-0 features-m-view">
-                      <div class="com-box bg-white">
-                        <div class="com-img">
-                          <img src="img/co_gdg.png" class="card-img-top gdg-img">
-                          <div class="com-cont bg-orange-transparent">
-                            <p class="big clr-white">
-                              <span class="clr-white com-hover"><img src="img/co_gdg.png" alt="" class=""></span><br><br>
-                              Google Developer Group, Port Harcourt.<br>
-                              <p class="mt-4 ml-4">
-                                <a href="#" class="clr-white">Learn more »»</a>
-                              </p>
-                            </p>
-                          </div>
-                        </div>  
-                      </div>
-                    </div>
+                        </div>
       
+      
+                        <div class="col-6 pl-0 pr-0 features-m-view">
+                          <div class="com-box bg-l-purple">
+                            <div class="com-img">
+                              <div class="gdg-img">
+                                <img src="img/logos/school-of-ai.png" class="card-img-top">
+                              </div>
+                              <div class="com-cont bg-orange-transparent">
+                                <div class="big">
+                                  <span class="com-hover mt-3"><img src="img/logos/school-of-ai.png" alt="" class=""></span><br>
+                                  .......<br>
+                                  <p class="span-link">
+                                    <a href="#" class="clr-white">Learn more »»</a>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>  
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
+
+                    <div class="col-md-6">
+                      <div class="row">
+                        <div class="col-6 pl-0 pr-0 features-m-view">
+                          <div class="com-box bg-l-green">
+                            <div class="com-img">
+                              <div class="gdg-img">
+                                <img src="img/logos/flutter-africa.jpg" class="card-img-top">
+                              </div>
+                              <div class="com-cont bg-orange-transparent">
+                                <div class="big">
+                                  <span class="com-hover mt-3"><img src="img/logos/flutter-africa.jpg" alt="" class=""></span><br>
+                                  .......<br>
+                                  <p class="span-link">
+                                    <a href="#" class="clr-white">Learn more »»</a>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>  
+                          </div>
+                        </div>
+      
+      
+                        <div class="col-6 pl-0 pr-0 features-m-view">
+                          <div class="com-box bg-l-red">
+                            <div class="com-img">
+                              <div class="gdg-img">
+                                <img src="img/logos/olotu-square.png" class="card-img-top">
+                              </div>
+                              <div class="com-cont bg-orange-transparent">
+                                <div class="big">
+                                  <span class="com-hover mt-3"><img src="img/logos/olotu-square.png" alt="" class=""></span><br>
+                                  .......<br>
+                                  <p class="span-link">
+                                    <a href="#" class="clr-white">Learn more »»</a>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>  
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
 
+
                   <div class="row">
-                    <div class="col-md-3 pl-0 pr-0 features-m-view">
-                      <div class="com-box bg-white">
-                        <div class="com-img">
-                          <img src="img/co_gdg.png" class="card-img-top gdg-img">
-                          <div class="com-cont bg-orange-transparent">
-                            <p class="big clr-white">
-                              <span class="clr-white com-hover"><img src="img/co_gdg.png" alt="" class=""></span><br><br>
-                              Google Developer Group, Port Harcourt.<br>
-                              <p class="mt-4 ml-4">
-                                <a href="#" class="clr-white">Learn more »»</a>
-                              </p>
-                            </p>
+                    <div class="col-md-6">
+                      <div class="row">
+                        <div class="col-6 pl-0 pr-0 features-m-view">
+                          <div class="com-box bg-l-green">
+                            <div class="com-img">
+                              <div class="gdg-img">
+                                <img src="img/logos/ph-anim.png" class="card-img-top">
+                              </div>
+                              <div class="com-cont bg-orange-transparent">
+                                <div class="big">
+                                  <span class="com-hover mt-3"><img src="img/logos/ph-anim.png" alt="" class=""></span><br>
+                                  .......<br>
+                                  <p class="span-link">
+                                    <a href="#" class="clr-white">Learn more »»</a>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>  
                           </div>
-                        </div>  
-                      </div>
-                    </div>
-
-                    <div class="col-md-3 pl-0 pr-0 features-m-view">
-                      <div class="com-box bg-white">
-                        <div class="com-img">
-                          <img src="img/co_gdg.png" class="card-img-top gdg-img">
-                          <div class="com-cont bg-orange-transparent">
-                            <p class="big clr-white">
-                              <span class="clr-white com-hover"><img src="img/co_gdg.png" alt="" class=""></span><br><br>
-                              Google Developer Group, Port Harcourt.<br>
-                              <p class="mt-4 ml-4">
-                                <a href="#" class="clr-white">Learn more »»</a>
-                              </p>
-                            </p>
-                          </div>
-                        </div>  
-                      </div>
-                    </div>
-
-                    <div class="col-md-3 pl-0 pr-0 features-m-view">
-                      <div class="com-box bg-white">
-                        <div class="com-img">
-                          <img src="img/co_gdg.png" class="card-img-top gdg-img">
-                          <div class="com-cont bg-orange-transparent">
-                            <p class="big clr-white">
-                              <span class="clr-white com-hover"><img src="img/co_gdg.png" alt="" class=""></span><br><br>
-                              Google Developer Group, Port Harcourt.<br>
-                              <p class="mt-4 ml-4">
-                                <a href="#" class="clr-white">Learn more »»</a>
-                              </p>
-                            </p>
-                          </div>
-                        </div>  
-                      </div>
-                    </div>
-
-
-                    <div class="col-md-3 pl-0 pr-0 features-m-view">
-                      <div class="com-box bg-white">
-                        <div class="com-img">
-                          <img src="img/co_gdg.png" class="card-img-top gdg-img">
-                          <div class="com-cont bg-orange-transparent">
-                            <p class="big clr-white">
-                              <span class="clr-white com-hover"><img src="img/co_gdg.png" alt="" class=""></span><br><br>
-                              Google Developer Group, Port Harcourt.<br>
-                              <p class="mt-4 ml-4">
-                                <a href="#" class="clr-white">Learn more »»</a>
-                              </p>
-                            </p>
-                          </div>
-                        </div>  
-                      </div>
-                    </div>
+                        </div>
       
+      
+                        <div class="col-6 pl-0 pr-0 features-m-view">
+                          <div class="com-box bg-l-red">
+                            <div class="com-img">
+                              <div class="gdg-img">
+                                <img src="img/logos/learner-meta.png" class="card-img-top">
+                              </div>
+                              <div class="com-cont bg-orange-transparent">
+                                <div class="big">
+                                  <span class="com-hover mt-3"><img src="img/logos/learner-meta.png" alt="" class=""></span><br>
+                                  .......<br>
+                                  <p class="span-link">
+                                    <a href="#" class="clr-white">Learn more »»</a>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>  
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
+
+                    <div class="col-md-6">
+                      <div class="row">
+                        <div class="col-6 pl-0 pr-0 features-m-view">
+                          <div class="com-box bg-lt-blue-two">
+                            <div class="com-img">
+                              <div class="gdg-img">
+                                <img src="img/logos/bubble_hub.png" class="card-img-top">
+                              </div>
+                              <div class="com-cont bg-orange-transparent">
+                                <div class="big">
+                                  <span class="com-hover mt-3"><img src="img/logos/bubble_hub.png" alt="" class=""></span><br>
+                                  .......<br>
+                                  <p class="span-link">
+                                    <a href="#" class="clr-white">Learn more »»</a>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>  
+                          </div>
+                        </div>
+      
+      
+                        <div class="col-6 pl-0 pr-0 features-m-view">
+                          <div class="com-box bg-l-purple">
+                            <div class="com-img">
+                              <div class="gdg-img">
+                                <img src="img/logos/olotu-square.png" class="card-img-top">
+                              </div>
+                              <div class="com-cont bg-orange-transparent">
+                                <div class="big">
+                                  <span class="com-hover mt-3"><img src="img/logos/olotu-square.png" alt="" class=""></span><br>
+                                  .......<br>
+                                  <p class="span-link">
+                                    <a href="#" class="clr-white">Learn more »»</a>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>  
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <a href="community" class="btn btn-find-com clr-blue">See all</a>
                   </div>
                 </div>
                 <div class="tab-pane fade" id="hubs" role="tabpanel" aria-labelledby="hubs">

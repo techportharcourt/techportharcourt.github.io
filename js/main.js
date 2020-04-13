@@ -24,6 +24,7 @@ errorContainer = (message, status) => {
 
 
 $('#contact-form').on('submit', function (e) {
+
   e.preventDefault()
   let name = $('#name').val();
   let email = $('#email').val();
@@ -49,12 +50,13 @@ $('#contact-form').on('submit', function (e) {
 
 
   send = {
-    fullname: fullname,
+    name: name,
     email: email,
     message: message
   }
 
   $.ajax
+  
     ({
       type: "POST",
       url: "email.php",

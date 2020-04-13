@@ -58,7 +58,7 @@
   padding: 88px 55px;
 }
 .communities {
-  padding: 88px 15px 0px 56px;
+  padding: 88px 56px 0px 56px;
 }
 ul li {
   list-style-type: none;
@@ -325,17 +325,26 @@ ul li {
 .com-cont .big {
   display: none;
 }
-
+.span-link {
+  margin-top: 40px;
+}
+.card-img-top {
+  height: 108px;
+  width: 200px;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+}
 .com-img:hover .com-cont {
   height: 100%;
-  background-color: rgba(246, 136, 27, 1);
+  background-color: #FCBC2D;
 }
 
 .com-img:hover .com-cont .big {
   display: block;
   padding-top: 50px;
-  padding-left: 30px;
-  padding-right: 50px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .com-img:hover .com-cont .hide {
@@ -345,13 +354,15 @@ ul li {
 .com-hover img{
   height: 50px;
   width: auto;
+  display: block;
+  margin: auto;
 }
 .hide {
   padding: 22px 45px;
 }
 .gdg-img {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   object-fit: contain;
   width: auto;
 }
@@ -378,7 +389,7 @@ ul li {
 
 
 /* responsive */
-@media only screen and (max-width: 1281px) {
+@media only screen and (max-width: 1024px) {
   .dash-row {
     display: block;
   }
@@ -457,6 +468,13 @@ ul li {
     padding-left: 15px;
     padding-right: 15px;
   }
+  .card-img-top {
+    height: 34px;
+  }
+  .com-hover img {
+    height: 34px;
+    width: auto;
+  }
   .tm-pt {
     margin-top: 82px;
   }
@@ -473,14 +491,20 @@ ul li {
     padding: 64px 15px 15px 15px;
   }
   .gdg-img {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    height: 200px;
+  }
+  .res-btn {
+    margin-top: 30px;
+    margin-left: 15px;
   }
   .com-img:hover .com-cont .big {
     display: block;
     padding-top: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;  
+    padding-right: 10px;
+  }
+  .span-link {
+    margin-top: 10px;
   }
   .bottom-button {
     position: relative;
@@ -601,4 +625,14 @@ ul li {
 .modal-header {
   padding: 24px 37px;
   border-bottom: none;
+}
+
+.disabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.disabled:hover {
+  color: #ffffff;
 }

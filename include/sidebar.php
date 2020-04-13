@@ -3,12 +3,12 @@
     <h1>&times;</h1>
   </div>
   <div class="bg-yellow logo-container">
-    <img src="img/icons/logo.svg" alt="logo image" class="img-fluid logo-img">
+    <a href="/"><img src="img/icons/logo.svg" alt="logo image" class="img-fluid logo-img"></a>
   </div>
 
   <div class="side-nav-padding">
     <p class="nav-br">
-      <a href="#" class="clr-dk-grey <?php if(isset($home)){echo $home;} ?>">Home</a>
+      <a href="/" class="clr-dk-grey <?php if(isset($home)){echo $home;} ?>">Home</a>
     </p>
     <p class="br-tp nav-br">
       <a href="about" class="clr-dk-grey  <?php if(isset($about)){echo $about;} ?>">About</a>

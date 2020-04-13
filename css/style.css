@@ -38,15 +38,15 @@ a:hover {
 }
 .btn {
   font-size: 14px;
+  text-transform: capitalize;
 }
 .br-tp {
   border-top: 1px solid #E5E5E5;
   padding-top: 24px;
   padding-bottom: 10px;
+  text-transform: capitalize;
 }
-.br-tp,.active {
-  color: #0544A8 !important;
-}
+
 .br-b {
   border-bottom: 1px solid #E5E5E5;
   padding-bottom: 24px;
@@ -104,4 +104,16 @@ a:hover {
 }
 .bg-gray {
   background: #F3F5FA;
+}
+.bg-lt-blue-two {
+  background: #F8FAFE;
+}
+.bg-l-purple {
+  background: #FEF8FB;
+}
+.bg-l-green {
+  background: #F8FEF8;
+}
+.bg-l-red {
+  background: #FFF7F8;
 }

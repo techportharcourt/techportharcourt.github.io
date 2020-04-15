@@ -38,7 +38,7 @@
               <h2 class="clr-black2 mb-4">
                 Blog
               </h2>
-              <a href="index" class="clr-red back-to-web-link">« Back to website</a>
+              <a href="https://techph.ng" class="clr-red back-to-web-link">« Back to website</a>
             </div>
           </div>
         </div>

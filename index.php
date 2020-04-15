@@ -137,7 +137,7 @@
                             <div class="com-cont bg-orange-transparent">
                               <div class="big">
                                 <span class="com-hover mt-3"><img src="img/logos/school-of-ai.png" alt="" class=""></span><br>
-                                ..........<br>
+                                School Of AI,Portharcourt<br>
                                 <p class="span-link">
                                   <a href="#" class="clr-white">Learn more »»</a>
                                 </p>
@@ -161,7 +161,7 @@
                             <div class="com-cont bg-orange-transparent">
                               <div class="big">
                                 <span class="com-hover mt-3"><img src="img/logos/flutter-africa.jpg" alt="" class=""></span><br>
-                                ..........<br>
+                                Flutter Africa<br>
                                 <p class="span-link">
                                   <a href="#" class="clr-white">Learn more »»</a>
                                 </p>
@@ -181,7 +181,7 @@
                             <div class="com-cont bg-orange-transparent">
                               <div class="big">
                                 <span class="com-hover mt-3"><img src="img/logos/olotu-square.png" alt="" class=""></span><br>
-                                ..........<br>
+                                Olotu Square<br>
                                 <p class="span-link">
                                   <a href="#" class="clr-white">Learn more »»</a>
                                 </p>
@@ -207,7 +207,7 @@
                             <div class="com-cont bg-orange-transparent">
                               <div class="big">
                                 <span class="com-hover mt-3"><img src="img/logos/ph-anim.png" alt="" class=""></span><br>
-                                ..........<br>
+                                Portharcourt Animation<br>
                                 <p class="span-link">
                                   <a href="#" class="clr-white">Learn more »»</a>
                                 </p>
@@ -227,7 +227,7 @@
                             <div class="com-cont bg-orange-transparent">
                               <div class="big">
                                 <span class="com-hover mt-3"><img src="img/logos/learner-meta.png" alt="" class=""></span><br>
-                                ..........<br>
+                                Learner Meta<br>
                                 <p class="span-link">
                                   <a href="#" class="clr-white">Learn more »»</a>
                                 </p>
@@ -251,7 +251,7 @@
                             <div class="com-cont bg-orange-transparent">
                               <div class="big">
                                 <span class="com-hover mt-3"><img src="img/logos/bubble_hub.png" alt="" class=""></span><br>
-                                ..........<br>
+                                Bubble ihub, portharcourt<br>
                                 <p class="span-link">
                                   <a href="#" class="clr-white">Learn more »»</a>
                                 </p>
@@ -270,8 +270,8 @@
                             </div>
                             <div class="com-cont bg-orange-transparent">
                               <div class="big">
-                                <span class="com-hover mt-3"><img src="img/logos/olotu-square.png" alt="" class=""></span><br>
-                                ..........<br>
+                                <span class="com-hover mt-3"><img src="img/logos/ksih.jpg" alt="" class=""></span><br>
+                                Ken Sarowiwa Hub, portharcourt<br>
                                 <p class="span-link">
                                   <a href="#" class="clr-white">Learn more »»</a>
                                 </p>

@@ -3,7 +3,7 @@
     <h1>&times;</h1>
   </div>
   <div class="bg-yellow logo-container">
-    <a href="/"><img src="img/icons/logo.svg" alt="logo image" class="img-fluid logo-img"></a>
+    <a href="/"><img src="img/icons/logo.svg" alt="logo image" class="img-fluid logo-img"></a>  
   </div>
 
   <div class="side-nav-padding">
@@ -24,13 +24,13 @@
     </p>
 
     <div class="social-media-links pt-3 br-b">
-      <a href="" class="pr-3">
+      <a href="https://twitter.com/techphc" target="_blank" class="pr-3">
         <img src="img/icons/ic_twitter.svg" class="img-fluid">
       </a>
-      <a href="" class="pr-3">
+      <a href="https://www.facebook.com/techphc/" target="_blank" class="pr-3">
         <img src="img/icons/ic_facebook.svg" class="img-fluid">
       </a>
-      <a href="" class="">
+      <a href="https://instagram.com/techphc" target="_blank" class="">
         <img src="img/icons/ic_instagram.svg" class="img-fluid">
       </a>
     </div>

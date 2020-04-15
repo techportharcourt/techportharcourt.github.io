@@ -342,7 +342,7 @@ ul li {
 
 .com-img:hover .com-cont .big {
   display: block;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-left: 22px;
   padding-right: 22px;
 }
@@ -389,26 +389,7 @@ ul li {
 
 
 /* responsive */
-@media only screen and (max-width: 1024px) {
-  .dash-row {
-    display: block;
-  }
-  .dash-side-nav {
-    display: block;
-  }
-  .sidebar {
-    position: fixed;
-    transform: translateX(-100%);
-    transition: all .5s ease;
-  }
-
-  .dash-body {
-    width: 100%;
-    margin-left: 0%;
-    background: #F3F5FA;
-    overflow-y: scroll;
-    overflow: hidden;
-  }
+@media only screen and (max-width: 1280px) {
 
   /* sizing */
   .body-main {
@@ -419,8 +400,9 @@ ul li {
   .tech-makers-container {
     padding: 24px 45px;
   }
-  .about-content {
-    padding: 40px 35px;
+  .img-abt {
+    height: 100%;
+    object-fit: cover;
   }
   .communities {
     padding: 88px 15px 15px 45px;
@@ -432,9 +414,6 @@ ul li {
   .footer-padding {
     padding-top: 71px;
     padding-bottom: 23px;
-  }
-  .cont-padding2 {
-    padding: 88px 45px 45px 45px;
   }
   .tech-people-padding {
     padding-top: 41px;
@@ -459,6 +438,10 @@ ul li {
   }
   .nav-container {
     padding: 15px;
+  }
+  .card-img-top {
+    height: 70px;
+    width: 146px;
   }
 }
 
@@ -551,11 +534,62 @@ ul li {
 }
 
 @media only screen and (max-width: 1280px) {
+  .side-nav-padding {
+    padding: 76.93px 37.49px;
+  }
+  .res-sidenav {
+    display: none;
+  }
+  .notification-bar2 {
+    right: 35px;
+  }
+  .logo-container {
+    padding: 47.35px 37.49px 0px 37.49px;
+  }
+  .res-logo img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 968px) {
   .sidebar {
     position: fixed;
     transform: translateX(-100%);
     transition: all .5s ease;
-    width: 50%;
+    width: 30%;
+    z-index: 1000;
+  }
+  .closebtn {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    font-size: 36px;
+    z-index: 2000;
+  }
+  .content {
+    width: 100%;
+    margin-left: 0%;
+    background: #F3F5FA;
+    overflow-y: scroll;
+    overflow: hidden;
+    flex-grow: 1;
+  }
+  .notification-bar2 {
+    right: 35px;
+  }
+  .res-sidenav {
+    display: block;
+  }
+  .res-logo img {
+    display: block;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    transform: translateX(-100%);
+    transition: all .5s ease;
+    width: 80%;
     z-index: 2000;
   }
   .closebtn {
@@ -577,24 +611,11 @@ ul li {
   .notification-bar2 {
     right: 35px;
   }
-}
-@media only screen and (max-width: 768px) {
-  .sidebar {
-    position: fixed;
-    transform: translateX(-100%);
-    transition: all .5s ease;
-    width: 80%;
-    z-index: 2000;
-  }
-  .closebtn {
+  .res-sidenav {
     display: block;
-    position: absolute;
-    top: 0;
-    right: 30px;
-    font-size: 36px;
   }
-  .notification-bar2 {
-    right: 35px;
+  .res-logo img {
+    display: block;
   }
 }
 

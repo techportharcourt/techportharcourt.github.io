@@ -169,7 +169,6 @@
                         </div>
                       </div>
                     </div>
-                    <a href="community" class="btn btn-find-com clr-blue  mb-5">See all</a>
                   </div>
                 </div>
                 <div class="tab-pane fade" id="hubs" role="tabpanel" aria-labelledby="hubs">
@@ -240,8 +239,6 @@
                         </div>
                       </div>
                     </div>
-
-                    <a href="community" class="btn btn-find-com clr-blue ml-lg-5 ml-md-3 mb-5">See all</a>
                   </div>
                 </div>
               </div>

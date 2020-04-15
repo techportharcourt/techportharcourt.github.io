@@ -46,7 +46,7 @@
               <p class="clr-white"> <img src="img/icons/calendar-alt-solid.svg" class="img-hrt"> Upcoming Events</p>
               <div class="row justify-content-right text-right">
                 <div class="col-md-12">
-                  <a href="blog" class="clr-white disabled">Read more »</a>
+                  <a href="#" class="clr-white disabled">Read more »</a>
                 </div>
               </div>
             </div>

@@ -266,7 +266,7 @@
                         <div class="com-box bg-l-purple">
                           <div class="com-img">
                             <div class="gdg-img">
-                              <img src="img/logos/olotu-square.png" class="card-img-top">
+                              <img src="img/logos/ksih.jpg" class="card-img-top">
                             </div>
                             <div class="com-cont bg-orange-transparent">
                               <div class="big">
